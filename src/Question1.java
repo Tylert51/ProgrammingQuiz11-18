@@ -9,7 +9,7 @@ public class Question1 {
         String result = "";
         for (int i = 1; i <= n; i++) {
             for(int j = 1; j <= i; j++) {
-                result += j;
+                result += j + " ";
             }
         }
         return result;
