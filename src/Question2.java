@@ -6,9 +6,8 @@ public class Question2 {
 
 
     public static String createSequence(int a, int b, int n) {
-        String result = "";
         int counter = a + b;
-        result += counter + " ";
+        String result = (counter + " ");
         for (int i = 1; i < n; i++) {
             counter += (int) (Math.pow(2,i) * b);
             result += counter + " ";
